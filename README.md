@@ -19,7 +19,6 @@ This project!
 Contributions to the Community: Actively involved in the developer community. Engaged in discussions, provided support, and welcomed contributions to foster a collaborative environment.
 
 How to Experience the Magic:
-Explore the Code: Clone the repository at https://github.com/your-username/3DWebMagic.git and delve into the intricacies of the codebase. Witness firsthand the synergy of JavaScript, OpenGL, and Three.js.
 
 Sample the Magic: Navigate to the examples directory to experience pre-designed templates. See how the magic unfolds and get inspired for your own creative endeavors.
 
@@ -28,4 +27,4 @@ Join the Community: Connect with fellow enthusiasts on our Discussions board. Sh
 Let's Collaborate:
 I am always open to collaboration, feedback, and new opportunities. Reach out to discuss potential projects, partnerships, or simply to share your thoughts on the magical world of 3D web development.
 
-Embark on a journey where code meets creativity, and possibilities are limitless. Welcome to the realm of 3DWebMagic!
+Embark on a journey where code meets creativity, and possibilities are limitless. Welcome to the realm of my website!
