@@ -28,3 +28,5 @@ Let's Collaborate:
 I am always open to collaboration, feedback, and new opportunities. Reach out to discuss potential projects, partnerships, or simply to share your thoughts on the magical world of 3D web development.
 
 Embark on a journey where code meets creativity, and possibilities are limitless. Welcome to the realm of my website!
+
+Updating right now, based off of this youtube video, https://www.youtube.com/watch?v=Q7AOvWpIVHU&t=165s, follow me as we continue updating!
