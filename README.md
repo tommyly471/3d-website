@@ -16,6 +16,8 @@ Achievements:
 
 This project!
 
+Multiple projects including games and such
+
 Contributions to the Community: Actively involved in the developer community. Engaged in discussions, provided support, and welcomed contributions to foster a collaborative environment.
 
 How to Experience the Magic:
