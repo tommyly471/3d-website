@@ -230,3 +230,20 @@ body.dark-mode {
 .project .button:hover {
   background-color: #0056b3;
 }
+
+#about-me {
+  display: flex;
+  flex-direction: row-reverse; /* Reverse the order of flex items */
+  align-items: center;
+  justify-content: space-between; /* Align items to each end */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.about-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.about-text {
+  flex-grow: 1; /* Allow text to grow */
+  margin-right: 20px; /* Add right margin for spacing */
+}
