@@ -240,10 +240,22 @@ body.dark-mode {
 }
 
 .about-image {
-  flex-shrink: 0; /* Prevent image from shrinking */
+  flex-shrink: 10; /* Prevent image from shrinking */
 }
 
-.about-text {
-  flex-grow: 1; /* Allow text to grow */
-  margin-right: 20px; /* Add right margin for spacing */
+.about-container {
+  max-width: 200px; /* Adjust this value as needed */
+  margin: auto; /* Center the container */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.about-image {
+  width: 20%; /* Adjust this value as needed */
+  float: right;
+  margin-left: 20px; /* Adjust this value as needed */
+}
+
+.about-content {
+  width: calc(50% - 20px); /* Adjust this value as needed */
+  /* Ensure proper spacing between image and content */
 }
