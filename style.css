@@ -35,6 +35,10 @@ h1 {
   line-height: 1.1;
 }
 
+header p {
+  font-weight: bold;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -110,14 +114,14 @@ body.dark-mode {
   content: "";
   left: 0;
   justify-content: flex-end;
-  background-color: #4d60b6;
+  background-color: #a1a1a1;
 }
 
 .card::after {
   content: "";
   right: 0;
   justify-content: flex-start;
-  background-color: #4453a6;
+  background-color: #a1a1a1;
 }
 
 .card:hover {
@@ -169,7 +173,7 @@ body.dark-mode {
 }
 
 .card .social-link svg {
-  text-shadow: 1px 1px rgba(31, 74, 121, 0.7);
+  text-shadow: 1px 1px rgba(161, 109, 37, 0.7);
   transform: scale(1);
 }
 
