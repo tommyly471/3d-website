@@ -289,3 +289,32 @@ body.dark-mode {
   width: calc(50% - 20px); /* Adjust this value as needed */
   /* Ensure proper spacing between image and content */
 }
+nav {
+  background-color: #f5f5f5; /* Background color */
+  padding: 10px 0; /* Padding for spacing */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center align the list items */
+}
+
+nav li {
+  display: inline-block; /* Display items horizontally */
+  margin: 0 10px; /* Add space between items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Link color */
+  font-weight: bold; /* Bold font weight */
+  padding: 5px 10px; /* Add padding for clickable area */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: #ddd; /* Background color on hover */
+}
