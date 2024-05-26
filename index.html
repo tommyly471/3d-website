@@ -9,6 +9,7 @@
     <script src="main.js" defer></script>
     <script src="darkmode.js" defer></script>
     <script src="script.js" defer></script>
+    <script src="slider.js" defer></script>
 
     <script type="application/ld+json">
         {
@@ -139,7 +140,21 @@
 
     <section>
         <div class="about-image">
-            <img src="pictures/tommypfp.jpg" alt="Tommy Ly" width="350" style="float:right;">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="pictures/tommypfp1.jpg" alt="Tommy Ly Image 1" width="350">
+                    </div>
+                    <div class="slide">
+                        <img src="pictures/tommypfp2.jpg" alt="Tommy Ly Image 2" width="350">
+                    </div>
+                    <div class="slide">
+                        <img src="pictures/tommypfp3.jpg" alt="Tommy Ly Image 3" width="350">
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </div>
         <h2>About Me</h2>
         <p>Hello! I'm Tommy Ly, a dedicated computer science student at the University of Texas at Austin, driven by a passion for turning ideas into tangible solutions through coding. My journey in computer science has been an exploration of diverse domains, from game development to web development and data science.</p>
