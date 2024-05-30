@@ -61,6 +61,16 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 1.75em;
+  color:#000000
+}
+
+h4 {
+  font-size: 1.25em;
+  color:#8d8c8c
+}
+
 header p {
   font-weight: bold;
 }
