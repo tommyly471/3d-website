@@ -1,3 +1,5 @@
+console.log('script.js is loaded and executed.');
+
 document.addEventListener('DOMContentLoaded', function () {
     
     const slider = document.querySelector('.slider');
