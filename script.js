@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
     
-
     const slider = document.querySelector('.slider');
     const navLinks = document.querySelectorAll('.slider-nav a');
 
