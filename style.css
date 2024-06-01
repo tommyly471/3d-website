@@ -152,7 +152,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #659fde;
 }
 button:focus,
 button:focus-visible {
@@ -314,7 +314,7 @@ body.dark-mode {
 .project .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #578ac1;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
