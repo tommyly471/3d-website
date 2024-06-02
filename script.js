@@ -24,17 +24,17 @@ let imageInterval;
 
 document.addEventListener('DOMContentLoaded', function () {
     const images = [
-        '/pictures/sanrio/badtz-maru.png',
-        '/pictures/sanrio/cinnamoroll jpg.png',
-        '/pictures/sanrio/gudetama.png',
-        '/pictures/sanrio/hangyodon.png',
-        '/pictures/sanrio/hellokitty.png',
-        '/pictures/sanrio/kerokerokeroppi.png',
-        '/pictures/sanrio/kuromipng.png',
-        '/pictures/sanrio/my melody.png',
-        '/pictures/sanrio/pochacco.png',
-        '/pictures/sanrio/pompompurin.png',
-        '/pictures/sanrio/Tuxedosam.png'
+        new URL('/pictures/sanrio/badtz-maru.png', import.meta.url).href,
+        new URL('/pictures/sanrio/cinnamoroll jpg.png', import.meta.url).href,
+        new URL('/pictures/sanrio/gudetama.png', import.meta.url).href,
+        new URL('/pictures/sanrio/hangyodon.png', import.meta.url).href,
+        new URL('/pictures/sanrio/hellokitty.png', import.meta.url).href,
+        new URL('/pictures/sanrio/kerokerokeroppi.png', import.meta.url).href,
+        new URL('/pictures/sanrio/kuromipng.png', import.meta.url).href,
+        new URL('/pictures/sanrio/my melody.png', import.meta.url).href,
+        new URL('/pictures/sanrio/pochacco.png', import.meta.url).href,
+        new URL('/pictures/sanrio/pompompurin.png', import.meta.url).href,
+        new URL('/pictures/sanrio/Tuxedosam.png', import.meta.url).href
     ];
 
     const toggleCheckbox = document.getElementById('toggle-images');
