@@ -423,3 +423,37 @@ nav a:hover {
 .slider::-webkit-scrollbar {
   display: none;
 }
+
+.image-popup {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.image-popup:hover {
+  opacity: 1;
+}
+
+.toggle-container {
+  margin: 20px;
+}
+
+.toggle-container label {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.toggle-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.toggle-container label:hover {
+  background-color: #0056b3;
+}
