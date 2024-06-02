@@ -24,17 +24,17 @@ let imageInterval;
 
 document.addEventListener('DOMContentLoaded', function () {
     const images = [
-        'pictures/sanrio/badtz-maru.png',
-        'pictures/sanrio/cinnamoroll jpg.png',
-        'pictures/sanrio/gudetama.png',
-        'pictures/sanrio/hangyodon.png',
-        'pictures/sanrio/hellokitty.png',
-        'pictures/sanrio/kerokerokeroppi.png',
-        'pictures/sanrio/kuromipng.png',
-        'pictures/sanrio/my melody.png',
-        'pictures/sanrio/pochacco.png',
-        'pictures/sanrio/pompompurin.png',
-        'pictures/sanrio/Tuxedosam.png'
+        '/pictures/sanrio/badtz-maru.png',
+        '/pictures/sanrio/cinnamoroll jpg.png',
+        '/pictures/sanrio/gudetama.png',
+        '/pictures/sanrio/hangyodon.png',
+        '/pictures/sanrio/hellokitty.png',
+        '/pictures/sanrio/kerokerokeroppi.png',
+        '/pictures/sanrio/kuromipng.png',
+        '/pictures/sanrio/my melody.png',
+        '/pictures/sanrio/pochacco.png',
+        '/pictures/sanrio/pompompurin.png',
+        '/pictures/sanrio/Tuxedosam.png'
     ];
 
     const toggleCheckbox = document.getElementById('toggle-images');
