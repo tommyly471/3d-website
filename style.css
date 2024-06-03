@@ -39,19 +39,7 @@ body {
 header {
     text-align: center;
     padding: 30px 0;
-}
-
-h1 {
-    color: #659fde;
-}
-
-p {
-    margin-bottom: 10px;
-}
-
-a {
-    color: #659fde;
-    text-decoration: none;
+    font-size: 25px;
 }
 
 section {
@@ -111,18 +99,33 @@ footer {
 }
 
 h1 {
+  color: #000000;
   font-size: 4.5em;
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2.5em;
   color:#000000
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1.65em;
   color:#8d8c8c
+}
+
+h5 {
+  font-size: 2.1em;
+  color:#000000
+}
+
+ul {
+  font-size: 1.1em;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1.16em;
 }
 
 header p {
