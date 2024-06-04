@@ -24,17 +24,17 @@ let imageInterval;
 
 document.addEventListener('DOMContentLoaded', function () {
     const images = [
-        new URL('/pictures/sanrio/badtz-maru.png', import.meta.url).href,
-        new URL('/pictures/sanrio/cinnamoroll jpg.png', import.meta.url).href,
-        new URL('/pictures/sanrio/gudetama.png', import.meta.url).href,
-        new URL('/pictures/sanrio/hangyodon.png', import.meta.url).href,
-        new URL('/pictures/sanrio/hellokitty.png', import.meta.url).href,
-        new URL('/pictures/sanrio/kerokerokeroppi.png', import.meta.url).href,
-        new URL('/pictures/sanrio/kuromipng.png', import.meta.url).href,
-        new URL('/pictures/sanrio/my melody.png', import.meta.url).href,
-        new URL('/pictures/sanrio/pochacco.png', import.meta.url).href,
-        new URL('/pictures/sanrio/pompompurin.png', import.meta.url).href,
-        new URL('/pictures/sanrio/Tuxedosam.png', import.meta.url).href
+        new URL('/pictures/sanrio/badtz-marufixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/cinnamorollfixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/gudetamafixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/hangyodonfixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/hellokittyfixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/kerokerokeroppifixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/kuromifixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/mymelodyfixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/pochaccofixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/pompompurinfixed.png', import.meta.url).href,
+        new URL('/pictures/sanrio/tuxedosamfixed.png', import.meta.url).href
     ];
 
     const toggleCheckbox = document.getElementById('toggle-images');
