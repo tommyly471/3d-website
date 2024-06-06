@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const toggleCheckbox = document.getElementById('toggle-images');
+    let imageInterval;
 
     toggleCheckbox.addEventListener('change', () => {
         if (toggleCheckbox.checked) {
@@ -54,12 +55,36 @@ document.addEventListener('DOMContentLoaded', function () {
         img.src = images[Math.floor(Math.random() * images.length)];
         img.classList.add('image-popup');
 
-        // Ensure the image appears within the visible area of the document
-        const maxWidth = document.documentElement.scrollWidth - 100; // 100 is the width of the image
-        const maxHeight = document.documentElement.scrollHeight - 100; // 100 is the height of the image
+        const textAreas = document.querySelectorAll('.text-area');
 
-        img.style.top = Math.random() * maxHeight + 'px';
-        img.style.left = Math.random() * maxWidth + 'px';
+        // Calculate potential positions that don't overlap with text areas
+        let positionIsValid = false;
+        let top, left;
+        while (!positionIsValid) {
+            top = Math.random() * (document.documentElement.scrollHeight - 100); // 100 is the height of the image
+            left = Math.random() * (document.documentElement.scrollWidth - 100); // 100 is the width of the image
+
+            positionIsValid = true;
+            textAreas.forEach(textArea => {
+                const textAreaRect = textArea.getBoundingClientRect();
+                const imgRect = {
+                    top: top,
+                    bottom: top + 100,
+                    left: left,
+                    right: left + 100
+                };
+
+                if (!(imgRect.top > textAreaRect.bottom ||
+                    imgRect.bottom < textAreaRect.top ||
+                    imgRect.right < textAreaRect.left ||
+                    imgRect.left > textAreaRect.right)) {
+                    positionIsValid = false;
+                }
+            });
+        }
+
+        img.style.top = top + 'px';
+        img.style.left = left + 'px';
 
         img.addEventListener('click', () => {
             img.remove();
