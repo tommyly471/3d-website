@@ -307,14 +307,14 @@ body.dark-mode {
 /* card for socials*/
 
 #projects {
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 .project {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   background-color: #fff;
 }
 
